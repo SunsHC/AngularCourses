@@ -1,0 +1,21 @@
+Pour downloader les dépendance du site qui sont dans le json:
+-aller dans le directory du site
+-npm install
+
+partir le service de la page web:
+-aller dans le directory du site
+-npm start
+
+Angular blocks:
+Components:
+-Encapsule le template, le data et le behaviour de la view
+-Peut en avoir des dizaines
+-Peut etre réutilisé dans d'autres application
+-C'est une classe typescript avec des propriétés et des méthodes
+Service:
+-Quand les components ont besoin de communiquer avec le backend ou saver du data
+-La logique non-lié a la view
+Router:
+-Responsable de la navigation
+Directive:
+-Modifie des éléments DOM existant et/ou ajouter des behaviors
